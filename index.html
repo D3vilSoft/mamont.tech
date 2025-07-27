@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pixel Video Background</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="overlay" id="overlay">
+    <div class="enter-text" id="enterText">CLICK TO ENTER</div>
+  </div>
+  <video id="bgVideo" class="bg-video" playsinline muted loop>
+    <source src="background.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <canvas id="pixelCanvas"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
